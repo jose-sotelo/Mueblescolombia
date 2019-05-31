@@ -3,9 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Muebles de Colombia FS</title>
+    <title>Sala</title>
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=2.5, minimum-scale=1.0">
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/sala.css">
     <link rel="stylesheet" href="css/font.css">
 </head>
 
@@ -29,8 +30,8 @@
         <div class="container container--flex">
             <span class="icon-menu" id="btnmenu"></span>
             <ul class="menu" id="menu">
-                <li class="menu__item"><a href="/" class="menu__link menu__link--select">Inico</a></li>
-                <li class="menu__item"><a href="sala.html" class="menu__link">Sala</a></li>
+                <li class="menu__item"><a href="/" class="menu__link">Inico</a></li>
+                <li class="menu__item"><a href="sala.html" class="menu__link menu__link--select">Sala</a></li>
                 <li class="menu__item"><a href="galeria.html" class="menu__link">Galeria</a></li>
                 <li class="menu__item"><a href="contacto.html" class="menu__link">Contacto</a></li>
             </ul>
@@ -43,55 +44,40 @@
     </nav>
 
     <section class="banner">
-        <img src="img/bannermuebles.png" alt="" class="banner__img">
-        <div class="banner__content">Estilo y Confort en tu hogar y oficina</div>
+        <img src="img/bannersala.png" alt="Muebles de Sala" class="banner__img">
+        <div class="banner__content">Salas con mucho estilo y confort</div>
     </section>
 
     <main class="main">
         <section class="group group--color">
             <div class="container">
-                <h2 class="main__title">Bienvenido a Muebles de Colombia FS</h2>
-                <p class="main__txt"> Muebles de Colombia ofrece a nuestra distinguida clientela muebles tanto para el hogar y oficina, con los ultimos modelos de acuerdo a las tendencias a nivel mundial, de la mejor calidad y al alcance de su bolsillo. </p>
+                <h2 class="main__title">Salas de Muebles de Colombia FS</h2>
+                <p class="main__txt"> Muebles de Colombia ofrece a nuestra distinguida clientela muebles para su sala de la mejor calidad, tenemos poltronas y sofas de acuerdo a sus gustos y al alcance de su bolsillo</p>
             </div>
+        </section>
+        <section class="group our-livingroom">
+            <h2 class="group__title"> Nuestras salas </h2>
+            <div class="container container--flex">
+                <div class="column column--33">
+                    <h3 class="our-livingroom__title">Classic</h3>
+                    <img src="img/sala-clasica1.png" alt="Sala Clasica" class="our-livingroom__img">
+                    <p class="our-livingroom__txt">Muebles de Colombia ofrece a nuestra distinguida clientela muebles para su sala de la mejor calidad, tenemos poltronas y sofas de acuerdo a sus gustos y al alcance de su bolsillo</p>
+                </div>
+                <div class="column--33">
+                    <h3 class="our-livingroom__title">Chandelier</h3>
+                    <img src="img/sala-chandelier.png" alt="Sala Chandelier" class="our-livingroom__img">
+                    <p class="our-team__txt">Muebles de Colombia ofrece a nuestra distinguida clientela muebles para su sala de la mejor calidad, tenemos poltronas y sofas de acuerdo a sus gustos y al alcance de su bolsillo</p>
+                </div>
+                <div class="column--33">
+                    <h3 class="our-livingroom__title">Master</h3>
+                    <img src="img/sala-master1.png" alt="Sala Master" class="our-livingroom__img">
+                    <p class="our-livingroom__txt">Muebles de Colombia ofrece a nuestra distinguida clientela muebles para su sala de la mejor calidad, tenemos poltronas y sofas de acuerdo a sus gustos y al alcance de su bolsillo</p>
+                </div>
+            </div>
+
         </section>
 
-        <section class="group main__about__description">
-            <div class="container container--flex">
-                <div class="column column--50">
-                    <img src="img/principalcama-deko.png" alt="Cama Deko">
-                </div>
-                <div class="column column--50">
-                    <h3 class="column__title">Expertos en muebles</h3>
-                    <p class="column__txt">Muebles de Colombia ofrece a nuestra distinguida clientela muebles tanto para el hogar y oficina, con los ultimos modelos de acuerdo a las tendencias a nivel mundial, de la mejor calidad y al alcance de su bolsillo.</p>
-                    <a href="" class="btn btn--contact">Contacto</a>
-                </div>
-            </div>
-        </section>
-        <section class="group today-special">
-            <h2 class="group__title">Promociones de hoy</h2>
-            <div class="container container--flex">
-                <div class="column column--50-25">
-                    <img src="img/principalbookshelves.png" alt="Organizador Libros" class="today-special__img">
-                    <div class="today-special__title">Promoción Deko Organizador Libros </div>
-                    <div class="today-especial__price">$400.000</div>
-                </div>
-                <div class="column column--50-25">
-                    <img src="img/principalcajonera-azul.png" alt="Cajonera Master" class="today-special__img">
-                    <div class="today-special__title">Promoción Mueble Cajonera Master</div>
-                    <div class="today-especial__price">$350.000</div>
-                </div>
-                <div class="column column--50-25">
-                    <img src="img/principalcama1.png" alt="Juego alcoba Master" class="today-special__img">
-                    <div class="today-special__title">Promoción Juego alcoba Master</div>
-                    <div class="today-especial__price">$1´500.000</div>
-                </div>
-                <div class="column column--50-25">
-                    <img src="img/principalespejo-oval.png" alt="Espejo de Roca Oval" class="today-special__img">
-                    <div class="today-special__title">Promoción Espejo de Roca Oval</div>
-                    <div class="today-especial__price">$150.000</div>
-                </div>
-            </div>
-        </section>
+
 
     </main>
     <footer class="main-footer">
